@@ -21,7 +21,7 @@ const app = {
                 .catch((err) => {
                     alert(err.response.data.message);
                     //未登入時，跳回登入頁面
-                    window.location = 'login.html'
+                    window.location = 'index.html'
                 })
         },
         getProducts() {
